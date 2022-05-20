@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    height: 100%;
+
+}
+.box{
+    color: #ff8f00;
+    position: relative;
+    top: 400px;
+    left: 696px;    
+    transform: translate(-50%, -100%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 40px;
+    width: 80%;
+    height: 90%;
+}
+fieldset{
+    border: 4px solid #ff8f00;
+    border-radius: 15px;
+}
+legend{
+    border: 5px solid #4169E1;
+    border-radius: 7px;
+    padding: 12px;
+    text-align: center;
+    background-color: #4169E1;
+}
+
+.inputBoxCpf{
+    position: relative;
+    top: -90px;
+    font-size: 22px;
+}
+
+.inputBoxEmail{
+    position: relative;
+    top: -95px;
+    font-size: 22px;
+}
+
+.inputBoxNome{
+    position: relative;
+    top: -65px;
+    font-size: 22px;
+}
+
+.inputBoxSenha{
+    position: relative;
+    top: -40px;
+    font-size: 22px;
+}
+
+.inputBoxConfirme{
+    position: relative;
+    top: -15px;
+    font-size: 22px;
+}
+
+button{
+display: inline-block;
+outline: 0;
+cursor: pointer;
+padding: 5px 16px;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+vertical-align: middle;
+border: 1px solid;
+border-radius: 6px;
+color: #24292e;
+background-color: #fafbfc;
+border-color: #1b1f2326;
+box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+
+.botao1{
+display: inline-block;
+outline: 0;
+cursor: pointer;
+padding: 5px 16px;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+vertical-align: middle;
+border: 1px solid;
+border-radius: 6px;
+color: #24292e;
+background-color: #fafbfc;
+border-color: #1b1f2326;
+box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
